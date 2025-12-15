@@ -1,6 +1,6 @@
-# Bicycle Speed Controller
+# Static Bicycle Speed Controller
 
-This project implements a system that measures bicycle speed using an ESP32 microcontroller and transmits it via Bluetooth. A companion Python script then receives this speed data and translates it into keyboard commands, allowing the physical bicycle's speed to control an application or game (e.g., simulating movement with 'W' and 'Shift+W').
+This project implements a system that measures static bicycle speed using an ESP32 microcontroller and transmits it via Bluetooth. A companion Python script then receives this speed data and translates it into keyboard commands, allowing the physical bicycle's speed to control an application or game (e.g., simulating movement with 'W' and 'Shift+W').
 
 ## Features
 -   **ESP32-based Speed Measurement**: Accurately measures bicycle wheel rotation speed using an interrupt-driven sensor connected to an ESP32 microcontroller.
